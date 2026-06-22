@@ -228,6 +228,6 @@ export const wedding: WeddingData = {
     mode: "sheetsAndWhatsApp",
     googleScriptUrl:
       "https://script.google.com/macros/s/AKfycbztWm0UjTI0T15RIjrhC7zRgVIS2Z1A7tvyjeUmFi3arXd0Sh1tT55Q5y7hLi9L2Sxytw/exec",
-    whatsappNumber: "549XXXXXXXXXX",
+    whatsappNumber: "5491151171124",
   },
 };
