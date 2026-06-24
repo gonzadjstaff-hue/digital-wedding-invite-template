@@ -113,32 +113,32 @@ export type WeddingData = {
 
 export const wedding: WeddingData = {
   couple: {
-    bride: "Sofía",
-    groom: "Mateo",
-    initials: "S&M",
+    bride: "Denisse",
+    groom: "Tobias",
+    initials: "D&T",
   },
   event: {
-    isoDate: "2026-12-12T20:00:00-03:00",
-    displayDate: "12 de diciembre de 2026",
-    heroDateParts: ["12", "12", "2026"],
-    venue: "Hacienda El Olivar",
-    address: ["Camino de los Cipreses 14", "Valle de los Pinos"],
-    googleMapsUrl: "https://maps.google.com",
+    isoDate: "2026-12-27T20:00:00-03:00",
+    displayDate: "27 de diciembre de 2026",
+    heroDateParts: ["27", "12", "2026"],
+    venue: "Jano's Maschwitz",
+    address: ["Colectora Este 2555, Ramal Escobar Km 44,5, 1625, B1623 Ingeniero Maschwitz, Provincia de Buenos Aires"],
+    googleMapsUrl: "https://www.google.com/maps/place/Janos+Maschwitz/data=!4m2!3m1!1s0x0:0x208c294fed0c72ca?sa=X&ved=1t:2428&ictx=111",
     dressCode: {
-      title: "Formal · tonos tierra",
-      lines: ["Damas: vestido largo", "Caballeros: traje claro"],
+      title: "Formal · Elegante",
+      lines: ["Damas: vestido largo", "Caballeros: traje"],
     },
   },
   copy: {
-    envelopeEyebrow: "Una invitación para ti",
+    envelopeEyebrow: "Una invitación para vos",
     envelopeHint: "Toca el sobre para abrir",
     heroEyebrow: "Nos casamos",
     scrollHint: "Desliza",
     introQuote:
-      "Y de pronto, supimos que el resto del mundo podía esperar, porque ya estábamos donde queríamos estar.",
-    introText: "Con la bendición de nuestras familias nos complace invitarte",
+      "Y de todas las historias de amor, la nuestra es mi favorita. Nos casamos.",
+    introText: "Acompañenos en nuestra boda y sean parte de nuestra historia de amor.",
     countdownTitle: "Cuenta regresiva",
-    countdownFinished: "Hoy celebramos",
+    countdownFinished: "Es hoy!!!",
     countdownUnits: {
       days: "días",
       hours: "hrs",
@@ -161,7 +161,7 @@ export const wedding: WeddingData = {
     rsvp: {
       eyebrow: "Confirma tu asistencia",
       title: "Te esperamos",
-      deadline: "Antes del 1 de agosto, 2026",
+      deadline: "Antes del 1 de septiembre, 2026",
       success: "¡Gracias! Tu respuesta fue registrada correctamente.",
       error: "No pudimos registrar tu respuesta. Intenta nuevamente en unos minutos.",
       configError:
@@ -181,7 +181,7 @@ export const wedding: WeddingData = {
       },
       placeholders: {
         fullName: "Tu nombre completo",
-        phone: "Ej. +54 9 11 1234 5678",
+        phone: "Ej. 11 1234 5678",
         dietary: "Ej. vegetariano, celíaco, sin restricciones",
         comment: "Algo que quieras contarnos",
       },
@@ -206,9 +206,9 @@ export const wedding: WeddingData = {
   },
   itinerary: [
     { time: "17:00", title: "Ceremonia", place: "Iglesia San Miguel" },
-    { time: "18:30", title: "Cóctel de bienvenida", place: "Jardín de los olivos" },
+    { time: "18:30", title: "Cóctel de bienvenida", place: "Recepcion de Jano's Maschwitz" },
     { time: "20:00", title: "Cena", place: "Salón principal" },
-    { time: "22:00", title: "Baile", place: "Hasta que el cuerpo aguante" },
+    { time: "22:00", title: "Baile", place: "En la pista hasta que el cuerpo aguante" },
   ],
   gifts: {
     title: "Tu presencia es nuestro mejor regalo",
@@ -228,6 +228,6 @@ export const wedding: WeddingData = {
     mode: "sheetsAndWhatsApp",
     googleScriptUrl:
       "https://script.google.com/macros/s/AKfycbztWm0UjTI0T15RIjrhC7zRgVIS2Z1A7tvyjeUmFi3arXd0Sh1tT55Q5y7hLi9L2Sxytw/exec",
-    whatsappNumber: "5491151171124",
+    whatsappNumber: "+5491169298305",
   },
 };
