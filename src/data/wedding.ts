@@ -135,8 +135,8 @@ export const wedding: WeddingData = {
     heroEyebrow: "Nos casamos",
     scrollHint: "Desliza",
     introQuote:
-      "Y de todas las historias de amor, la nuestra es mi favorita. Nos casamos.",
-    introText: "Acompañenos en nuestra boda y sean parte de nuestra historia de amor.",
+      "Y de todas las historias de amor, la nuestra es mi favorita.",
+    introText: "Acompañenos en nuestra boda y sean parte de este día tan especial.",
     countdownTitle: "Cuenta regresiva",
     countdownFinished: "Es hoy!!!",
     countdownUnits: {
@@ -161,7 +161,7 @@ export const wedding: WeddingData = {
     rsvp: {
       eyebrow: "Confirma tu asistencia",
       title: "Te esperamos",
-      deadline: "Antes del 1 de septiembre, 2026",
+      deadline: "Antes del 1 de octubre, 2026",
       success: "¡Gracias! Tu respuesta fue registrada correctamente.",
       error: "No pudimos registrar tu respuesta. Intenta nuevamente en unos minutos.",
       configError:
