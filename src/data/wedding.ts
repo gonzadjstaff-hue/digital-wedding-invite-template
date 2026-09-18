@@ -215,13 +215,13 @@ export const wedding: WeddingData = {
     lines: ["Si deseas obsequiarnos algo más,", "encuentra los detalles abajo."],
   },
   images: {
-    hero: "/images/couple-1.jpg",
-    story: "/images/couple-3.jpg",
+    hero: "/images/couple-1.jpeg",
+    story: "/images/couple-3.jpeg",
     gallery: [
-      "/images/couple-2.jpg",
-      "/images/wedding-details.jpg",
-      "/images/couple-1.jpg",
-      "/images/couple-3.jpg",
+      "/images/couple-3.jpeg",
+      "/images/couple-4.jpeg",
+      "/images/couple-5.jpg",
+      "/images/couple-6.jpg",
     ],
   },
   rsvp: {
