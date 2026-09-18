@@ -220,8 +220,8 @@ export const wedding: WeddingData = {
     gallery: [
       "/images/couple-3.jpeg",
       "/images/couple-4.jpeg",
-      "/images/couple-5.jpg",
-      "/images/couple-6.jpg",
+      "/images/couple-5.jpeg",
+      "/images/couple-6.jpeg",
     ],
   },
   rsvp: {
