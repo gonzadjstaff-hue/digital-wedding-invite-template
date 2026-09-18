@@ -216,7 +216,7 @@ export const wedding: WeddingData = {
   },
   images: {
     hero: "/images/couple-1.jpeg",
-    story: "/images/couple-3.jpeg",
+    story: "/images/couple-2.jpeg",
     gallery: [
       "/images/couple-3.jpeg",
       "/images/couple-4.jpeg",
