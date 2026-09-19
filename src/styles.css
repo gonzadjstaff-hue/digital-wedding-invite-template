@@ -12,10 +12,7 @@
   --sage: #8a9b76;
   --wax: #7f2f27;
   --wax-dark: #5b1d1a;
-
-  /* SOBRE: blanco hueso */
   --envelope: #f4efe4;
-
   --shadow-soft: 0 32px 70px -36px rgba(61, 46, 36, 0.5);
   --shadow-paper:
     0 18px 42px -20px rgba(61, 46, 36, 0.42),
@@ -237,7 +234,6 @@ main {
   border-radius: 3px;
 }
 
-/* SOBRE BLANCO HUESO / CREMA */
 .envelope-body {
   background:
     linear-gradient(
@@ -300,38 +296,89 @@ main {
   top: 50%;
   left: 50%;
   display: flex;
-  width: 4.7rem;
-  height: 4.7rem;
+  width: 4.25rem;
+  height: 3.95rem;
   align-items: center;
   justify-content: center;
-  transform: translate(-50%, -50%);
-  color: #fff8e7;
+  transform: translate(-50%, -50%) rotate(-5deg);
+  color: #f3e5bc;
+
   background:
-    radial-gradient(circle at 30% 28%, #fff8d6 0%, #f9e7a2 18%, #e1bf5a 40%, #b88922 72%, #8a6514 100%);
-  border-radius: 50%;
-  border: 1px solid rgba(255, 244, 200, 0.45);
+    radial-gradient(
+      circle at 34% 28%,
+      #dfbf76 0%,
+      #c69a49 28%,
+      #aa7a2e 58%,
+      #8b5f20 82%,
+      #6e4716 100%
+    );
+
+  border-radius:
+    45% 55% 48% 52% /
+    51% 44% 56% 49%;
+
   box-shadow:
-    0 10px 20px -8px rgba(92, 64, 10, 0.45),
-    inset 0 4px 8px rgba(255, 248, 210, 0.55),
-    inset 0 -6px 10px rgba(120, 82, 15, 0.35),
-    inset 0 0 0 2px rgba(255, 236, 170, 0.18);
-  clip-path: none;
+    0 6px 10px rgba(72, 45, 14, 0.30),
+    inset 2px 2px 5px rgba(255, 231, 164, 0.32),
+    inset -4px -5px 6px rgba(92, 60, 17, 0.42);
+
   transition:
     transform 500ms ease,
     opacity 500ms ease;
 }
 
+.wax-seal::before {
+  position: absolute;
+  inset: 0.46rem;
+  border: 1px solid rgba(92, 59, 16, 0.48);
+  border-radius:
+    48% 52% 46% 54% /
+    53% 47% 51% 49%;
+  content: "";
+
+  box-shadow:
+    inset 0 1px 2px rgba(255, 225, 158, 0.20),
+    inset 0 -1px 2px rgba(74, 47, 13, 0.38);
+}
+
+.wax-seal::after {
+  position: absolute;
+  inset: -0.11rem;
+  z-index: -1;
+  content: "";
+
+  background:
+    radial-gradient(
+      circle at 35% 35%,
+      #b98a3c 0%,
+      #966926 70%,
+      #704817 100%
+    );
+
+  border-radius:
+    53% 47% 56% 44% /
+    45% 56% 44% 55%;
+
+  opacity: 0.9;
+  transform: rotate(10deg);
+}
+
 .wax-seal span {
+  position: relative;
+  z-index: 2;
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  color: #fff8e1;
-  text-shadow: 0 1px 2px rgba(120, 82, 15, 0.35);
+  letter-spacing: 0.08em;
+  color: #f8ebc9;
+
+  text-shadow:
+    0 1px 0 rgba(105, 68, 18, 0.8),
+    0 -1px 0 rgba(255, 235, 170, 0.18);
 }
 
 .is-opening .wax-seal {
-  transform: translate(-50%, -50%) scale(0.6) rotate(-20deg);
+  transform: translate(-50%, -50%) scale(0.6) rotate(-24deg);
   opacity: 0;
 }
 
