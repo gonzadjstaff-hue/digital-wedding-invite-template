@@ -212,7 +212,8 @@ export const wedding: WeddingData = {
   ],
   gifts: {
     title: "Tu presencia es nuestro mejor regalo",
-    lines: ["Si deseas obsequiarnos algo más,", "encuentra los detalles abajo."],
+    lines: ["Si deseas obsequiarnos algo más,", "encuentra los detalles acá:",
+"alias : denu.tobi"]
   },
   images: {
     hero: "/images/couple-1.jpeg",
