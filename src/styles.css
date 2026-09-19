@@ -300,42 +300,22 @@ main {
   top: 50%;
   left: 50%;
   display: flex;
-  width: 5rem;
-  height: 5rem;
+  width: 4.7rem;
+  height: 4.7rem;
   align-items: center;
   justify-content: center;
   transform: translate(-50%, -50%);
-  color: #f4e4c7;
+  color: #fff8e7;
   background:
-    radial-gradient(circle at 35% 30%, #b25a43 0%, var(--wax) 45%, var(--wax-dark) 100%);
+    radial-gradient(circle at 30% 28%, #fff8d6 0%, #f9e7a2 18%, #e1bf5a 40%, #b88922 72%, #8a6514 100%);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 244, 200, 0.45);
   box-shadow:
-    0 8px 20px -6px rgba(67, 20, 17, 0.65),
-    inset 0 -4px 8px rgba(40, 12, 10, 0.55),
-    inset 0 3px 6px rgba(245, 158, 121, 0.32);
-  clip-path: polygon(
-    50% 0%,
-    61% 12%,
-    78% 8%,
-    79% 25%,
-    95% 32%,
-    88% 48%,
-    100% 58%,
-    87% 70%,
-    92% 88%,
-    75% 86%,
-    67% 99%,
-    52% 90%,
-    38% 100%,
-    30% 86%,
-    12% 89%,
-    16% 71%,
-    2% 60%,
-    13% 47%,
-    6% 31%,
-    22% 26%,
-    22% 9%,
-    39% 13%
-  );
+    0 10px 20px -8px rgba(92, 64, 10, 0.45),
+    inset 0 4px 8px rgba(255, 248, 210, 0.55),
+    inset 0 -6px 10px rgba(120, 82, 15, 0.35),
+    inset 0 0 0 2px rgba(255, 236, 170, 0.18);
+  clip-path: none;
   transition:
     transform 500ms ease,
     opacity 500ms ease;
@@ -343,12 +323,15 @@ main {
 
 .wax-seal span {
   font-family: var(--font-display);
-  font-size: 1.15rem;
-  letter-spacing: 0.12em;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #fff8e1;
+  text-shadow: 0 1px 2px rgba(120, 82, 15, 0.35);
 }
 
 .is-opening .wax-seal {
-  transform: translate(-50%, -50%) scale(0.6) rotate(-45deg);
+  transform: translate(-50%, -50%) scale(0.6) rotate(-20deg);
   opacity: 0;
 }
 
