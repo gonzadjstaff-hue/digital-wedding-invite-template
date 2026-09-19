@@ -205,10 +205,9 @@ export const wedding: WeddingData = {
     footerText: "Con amor",
   },
   itinerary: [
-    { time: "17:00", title: "Ceremonia", place: "Iglesia San Miguel" },
-    { time: "18:30", title: "Cóctel de bienvenida", place: "Recepcion de Jano's Maschwitz" },
-    { time: "20:00", title: "Cena", place: "Salón principal" },
-    { time: "22:00", title: "Baile", place: "En la pista hasta que el cuerpo aguante" },
+    { time: "20:00", title: "Ceremonia", place: "Jano's Maschwitz" },
+    { time: "21.00", title: "Recepción", place: "Recepcion de Jano's Maschwitz" }
+    { time: "22:00", title: "Cena", place: "Salón principal" },
   ],
   gifts: {
     title: "Tu presencia es nuestro mejor regalo",
