@@ -206,7 +206,7 @@ export const wedding: WeddingData = {
   },
   itinerary: [
     { time: "20:00", title: "Ceremonia", place: "Jano's Maschwitz" },
-    { time: "21.00", title: "Recepción", place: "Recepcion de Jano's Maschwitz" }
+    { time: "21.00", title: "Recepción", place: "Recepcion de Jano's Maschwitz" },
     { time: "22:00", title: "Cena", place: "Salón principal" },
   ],
   gifts: {
