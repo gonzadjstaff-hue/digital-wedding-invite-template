@@ -99,7 +99,7 @@ function Gallery() {
             src={src}
             alt={`${wedding.copy.galleryAlt} ${index + 1}`}
             loading="lazy"
-            className={index % 3 === 0 ? "portrait" : ""}
+            className="portrait"
           />
         ))}
       </div>
