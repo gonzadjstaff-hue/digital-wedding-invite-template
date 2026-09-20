@@ -213,7 +213,7 @@ export const wedding: WeddingData = {
     title: "Tu presencia es nuestro mejor regalo",
     lines: [
       "Si deseas obsequiarnos algo más,",
-      "encuentra los detalles acá:",
+      "encontrá los detalles acá:",
       "alias : denu.tobi",
       "cbu : 0110581030069103330901",
     ],
