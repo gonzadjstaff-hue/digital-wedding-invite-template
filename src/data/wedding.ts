@@ -146,9 +146,9 @@ export const wedding: WeddingData = {
       seconds: "seg",
     },
     storyEyebrow: "Nuestra historia",
-    storyTitle: "Un café, una mirada, para siempre",
+    storyTitle: ""
     storyText:
-      "Nos conocimos un martes cualquiera de octubre. Cinco años después, en el mismo café, una pregunta cambió el rumbo de todo. Hoy queremos que formes parte del siguiente capítulo.",
+      " El destino nos unió, el amor nos hizo quedarnos y hoy elegimos caminar juntos para siempre",
     galleryAlt: "Momentos de la pareja",
     scheduleEyebrow: "El día",
     scheduleTitle: "Itinerario",
