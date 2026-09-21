@@ -146,7 +146,7 @@ export const wedding: WeddingData = {
       seconds: "seg",
     },
     storyEyebrow: "Nuestra historia",
-    storyTitle: ""
+    storyTitle: "",
     storyText:
       " El destino nos unió, el amor nos hizo quedarnos y hoy elegimos caminar juntos para siempre",
     galleryAlt: "Momentos de la pareja",
