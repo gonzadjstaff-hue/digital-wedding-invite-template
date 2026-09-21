@@ -161,7 +161,7 @@ export const wedding: WeddingData = {
     rsvp: {
       eyebrow: "Confirma tu asistencia",
       title: "Te esperamos",
-      deadline: "Antes del 1 de octubre, 2026",
+      deadline: "Antes del 1 de noviembre, 2026",
       success: "¡Gracias! Tu respuesta fue registrada correctamente.",
       error: "No pudimos registrar tu respuesta. Intenta nuevamente en unos minutos.",
       configError:
