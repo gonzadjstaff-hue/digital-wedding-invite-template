@@ -68,7 +68,7 @@ function Intro() {
   return (
     <Section className="intro-section">
       <div className="narrow center">
-        <p className="quote">“{wedding.copy.introQuote}”</p>
+        <p className="quote">{wedding.copy.introQuote}</p>
         <Divider />
         <p className="intro-copy">{wedding.copy.introText}</p>
       </div>
