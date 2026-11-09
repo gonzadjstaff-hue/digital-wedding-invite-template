@@ -136,7 +136,7 @@ export const wedding: WeddingData = {
     scrollHint: "Desliza",
     introQuote:
       "Y de todas las historias de amor, la nuestra es mi favorita.",
-    introText: "Acompañenos en nuestra boda y sean parte de este día tan especial.",
+    introText: "Queremos compartir con ustedes este día tan especial.",
     countdownTitle: "Cuenta regresiva",
     countdownFinished: "Es hoy!!!",
     countdownUnits: {
